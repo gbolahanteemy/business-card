@@ -1,0 +1,10 @@
+# Plain static HTML/CSS/JS site: no framework, package manager, or build step.
+[build]
+  publish = "."
+  command = ""
+
+# The page lives in file.html (there is no index.html), so serve it at the site root.
+[[redirects]]
+  from = "/"
+  to = "/file.html"
+  status = 200
