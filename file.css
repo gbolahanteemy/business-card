@@ -1,0 +1,41 @@
+body {
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.card {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  width: 550px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: #cad182;
+  background: #724319;
+  border-bottom: 10px solid #F7B1B0;
+  color: #cad182;
+  transition: background-color 0.15s ease, color 0.15s ease, border-bottom-color 0.15s ease;
+}
+
+.card:hover {
+  background: #70d6ff;
+  color: #e9ff70;
+  border-bottom:10px solid #ff70a6;
+}
+
+
+
+.img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+@keyframes body {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+
